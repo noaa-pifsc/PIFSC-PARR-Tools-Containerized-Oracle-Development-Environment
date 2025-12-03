@@ -35,4 +35,26 @@ source ./sh_script_config/custom_project_config.sh
 
 	echo "The CAS project's dependencies have been added to the docker/src subfolder"
 
+
+	echo "clone the parr-tools project's dependencies"
+
+	git clone $parr_tools_git_url ../tmp/parr-tools
+
+	echo "copy the docker files from the repository to the docker/src/parr-tools subfolder"
+
+	# copy the docker files from the repository to the parr-tools subfolder
+	cp -r ../tmp/parr-tools/shared_SQL ../docker/src/parr-tools/shared_SQL
+
+	cp -r ../tmp/parr-tools/PARR_dashboard/application_code ../docker/src/parr-tools/PARR_dashboard/application_code
+
+	cp -r ../tmp/parr-tools/PARR_dashboard/SQL ../docker/src/parr-tools/PARR_dashboard/SQL
+
+	cp -r ../tmp/parr-tools/ODS/SQL ../docker/src/parr-tools/ODS/SQL
+
+	cp -r ../tmp/parr-tools/bulk_download/SQL ../docker/src/parr-tools/bulk_download/SQL
+
+	cp -r ../tmp/parr-tools/data-set-access-verification/SQL ../docker/src/parr-tools/data-set-access-verification/SQL
+
+	echo "The parr-tools project's dependencies have been added to the docker/src subfolder"
+
 echo "finished executing custom scripts to prepare the docker project"

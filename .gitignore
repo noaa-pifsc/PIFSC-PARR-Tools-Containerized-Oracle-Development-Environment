@@ -15,3 +15,9 @@ docker/src/SAM/*
 
 # Do not ignore the .gitkeep file for the SAM directory, so the directory itself is tracked.
 !docker/src/SAM/.gitkeep
+
+# Ignore all content in the parr-tools directory
+docker/src/parr-tools/*
+
+# Do not ignore the .gitkeep file for the parr-tools directory, so the directory itself is tracked.
+!docker/src/parr-tools/.gitkeep
