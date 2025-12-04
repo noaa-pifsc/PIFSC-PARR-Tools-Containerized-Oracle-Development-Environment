@@ -40,8 +40,14 @@ source ./sh_script_config/custom_project_config.sh
 
 	git clone $parr_tools_git_url ../tmp/parr-tools
 
-	echo "copy the docker files from the repository to the docker/src/parr-tools subfolder"
+	echo "create the parr-tools subdirectories"
 
+	mkdir -p ../docker/src/parr-tools/PARR_dashboard
+	mkdir -p ../docker/src/parr-tools/ODS
+	mkdir -p ../docker/src/parr-tools/bulk_download/
+	mkdir -p ../docker/src/parr-tools/data-set-access-verification
+
+	echo "copy the docker files from the repository to the docker/src/parr-tools subfolder"
 	# copy the docker files from the repository to the parr-tools subfolder
 	cp -r ../tmp/parr-tools/shared_SQL ../docker/src/parr-tools/shared_SQL
 

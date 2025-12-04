@@ -36,7 +36,7 @@ The PIFSC PARR Tools (PT) Containerized Oracle Developer Environment (PTCODE) pr
         -   The [CAS/SQL](https://picgitlab.nmfs.local/centralized-data-tools/authorization-application-module/-/tree/master/CAS/SQL?ref_type=heads) folder is copied into the [CAS folder](./docker/src/CAS) folder
         -   The [application_code](https://picgitlab.nmfs.local/centralized-data-tools/authorization-application-module/-/tree/master/CAS/application_code?ref_type=heads) folder is copied into the [CAS folder](./docker/src/CAS) folder
         -   The [SAM/SQL](https://picgitlab.nmfs.local/centralized-data-tools/authorization-application-module/-/tree/master/SAM/SQL?ref_type=heads) folder is copied into the [SAM folder](./docker/src/SAM) folder
-    -   <mark>#### PT Preparation
+    -   #### PT Preparation
         -   The [shared_SQL](https://picgitlab.nmfs.local/centralized-data-tools/parr-tools/-/tree/master/shared_SQL?ref_type=heads) folder is copied into the [parr-tools folder](./docker/src/parr-tools) folder
         -   The [PARR_dashboard/application_code](https://picgitlab.nmfs.local/centralized-data-tools/parr-tools/-/tree/master/PARR_dashboard/application_code?ref_type=heads) folder is copied into the [parr-tools folder](./docker/src/parr-tools) folder
         -   The [PARR_dashboard/SQL](https://picgitlab.nmfs.local/centralized-data-tools/parr-tools/-/tree/master/PARR_dashboard/SQL?ref_type=heads) folder is copied into the [parr-tools folder](./docker/src/parr-tools) folder
