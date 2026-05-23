@@ -23,3 +23,27 @@ CAS_APP_PWD='YOUR_CAS_APP_PASSWORD'
 # define CAS apex developer account username/password
 CAS_APX_USER="CAS_APX_APP_DEV"
 CAS_APX_PWD='YOUR_CAS_APEX_PASSWORD'
+
+# define PARR Tools data schema credentials
+PICDM_USER="PICDM"
+PICDM_PWD='YOUR_PASSWORD'
+
+# define PARR Tools Apex app schema credentials
+PICDM_APP_USER="PDM"
+PICDM_APP_PWD='YOUR_PASSWORD'
+
+# define Apex developer account credentials
+PICDM_APX_USER="PICPDM_DEV"
+PICDM_APX_PWD='YOUR_PASSWORD'
+
+# define ODS app schema credentials
+PICDM_ODS_USER="PICDM_ODS_APP"
+PICDM_ODS_PWD='YOUR_PASSWORD'
+
+# define UVM app schema credentials
+PICDM_UVM_USER="PICDM_UVM_APP"
+PICDM_UVM_PWD='YOUR_PASSWORD'
+
+# define BDM app schema credentials
+PICDM_BDM_USER="PICDM_BDM_APP"
+PICDM_BDM_PWD='YOUR_PASSWORD'

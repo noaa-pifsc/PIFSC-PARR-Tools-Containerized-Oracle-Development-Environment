@@ -7,3 +7,6 @@
 [submodule "projects/CAS/modules/AAM"]
 	path = projects/CAS/modules/AAM
 	url = git@github.com:noaa-pifsc/Authorization-Application-Module.git
+[submodule "projects/PARR-Tools/modules/PARR-Tools"]
+	path = projects/PARR-Tools/modules/PARR-Tools
+	url = git@picgitlab.nmfs.local:centralized-data-tools/parr-tools.git

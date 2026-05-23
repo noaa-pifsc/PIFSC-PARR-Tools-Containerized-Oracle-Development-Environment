@@ -7,6 +7,7 @@ The PIFSC Containerized Oracle Developer Environment (CODE) project was develope
 -   [CODE documentation](./core/docs/CODE%20Documentation.md)
 -   [DSC CODE documentation](./projects/DSC/docs/DSC%20CODE%20Fork%20Documentation.md)
 -   [Centralized Authorization System (CAS) CODE documentation](./projects/CAS/docs/CAS%20CODE%20Fork%20Documentation.md)
+-   [PARR Tools CODE documentation](./projects/PARR-Tools/docs/PARR%20Tools%20Fork%20Documentation.md)
 
 ## License
 See the [LICENSE.md](./LICENSE.md) for details
